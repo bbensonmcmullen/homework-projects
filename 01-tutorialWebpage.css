@@ -1,5 +1,6 @@
 body{
-    background: black;
+    background-image: url('4-assets/admechbackground2.png');
+    background-attachment: fixed;
 }
 
 /* header{
@@ -8,9 +9,14 @@ body{
     background-size: 100%;
 } */
 
+#logo{
+    top: 0;
+    left: 0;
+}
+
 #doctrinaMaterium{
     font-family: 'Source Code Pro', monospace;
-    background: rgb(26, 25, 25);
+    background:rgb(0, 0, 0, 0.9);
     color: black;
     -webkit-text-fill-color: black;
     -webkit-text-stroke-width: 1px;
@@ -56,6 +62,11 @@ a:active{
     -webkit-text-stroke-color: green;
 }
 
+img{
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
 #navbar{
     background: url(./4-assets/mechnavbar.jpg);
     width: 130px;
@@ -68,6 +79,7 @@ a:active{
     border-radius: 15%;
     padding: 10px;
     cursor: pointer;
+    list-style-image: url('4-assets/skullicon.png');
 }
 
 #cogiQuan1{
@@ -76,7 +88,7 @@ a:active{
     border-top: 3px double darkslategray;
     border-right: 3px double darkslategray;
     border-bottom: 3px double darkslategray;
-    border-left: 10px solid black;
+    border-left: 10px solid rgb(17, 17, 17);
 }
 
 #cogiQuan2{
@@ -85,7 +97,7 @@ a:active{
     border-top: 3px double darkslategray;
     border-right: 3px double darkslategray;
     border-bottom: 3px double darkslategray;
-    border-left: 10px solid black;
+    border-left: 10px solid rgb(17, 17, 17);
 }
 
 #cogiQuan3{
@@ -94,17 +106,26 @@ a:active{
     border-top: 3px double darkslategray;
     border-right: 3px double darkslategray;
     border-bottom: 3px double darkslategray;
-    border-left: 10px solid black;
+    border-left: 10px solid rgb(17, 17, 17);
 }
 
 footer{
-    border-left: 5px solid black;
+    border-left: 5px solid rgb(17, 17, 17);
     font-family: 'Source Code Pro', monospace;
-    background: rgb(26, 25, 25);
+    background: rgb(0, 0, 0, 0.9);
     color: black;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: lightgreen;
     bottom: 0;
     border: 5px solid black;
     text-align: center;
     margin: 0 10vw;
     padding:10px 0;
+}
+
+#tFTD{
+    border: 3px double lightgreen;
+    margin: auto;
+    padding: auto; 
 }
