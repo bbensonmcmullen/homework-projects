@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mechanicum Tutorious</title>
+    <link rel="stylesheet" type="text/css" href="../homeworkAndProjects/01-tutorialWebpage.css">
+</head>
+<body>
+
+<div id="navbar">
+    <ul>
+        <li><a href="#cogiQuan1">Tutorious: Functions</a></li>
+        <br>
+        <li><a href="#cogiQuan2">Tutorious: Conditionals</a></li>
+        <br>
+        <li><a href="#cogiQuan3">Tutorious: Arrays</a></li>
+    </ul>
+</div>
+<div id="doctrinaMaterium">
+    <div id="scriptoriusPrimum">
+    <h1 style="text-align:center">Adeptus Mechanicus Instructional Lexi-Crypt</h1>
+    <p><i>//ACCESS GRANTED; WELCOME COGNITIATE//</i>
+        <br>
+        <br>
+        Cognitiates and neophyte mechwrights alike shall make use of this instructional docufile
+        regarding some of the sacred mysteries of the Machine Spirit. Not all Machine Spirits are
+        alike, though all have commonalities. Especially those running logic-rituals based upon the
+        sacred binary-lang known in the ancient antiquity of the Second Millenium as "JavaScript".
+        Though an ancient bi-lang, JavaScript finds use in many STCs for its relatively simple logic.
+        Machine Rites constructed in this bi-lang often contain some or all of the following entries.
+
+        Supplicants may use the navigation cogiQuan (cogitation quantum) to engage with different 
+        segments of the Educatus Tutorium.
+        
+        <br>
+        <br>
+        
+        //ACCESS: expanded; ACCESSING DOCUFILE DECRYPTION CHANTS; beginLexi-CryptDecodeRitual
+        ACCESS GRANTED; cogitationQuanta:ACCESSED; beginKnowledge-Rite: EDUCATUS TUTORIUM.html//
+    </p>
+    </div>
+<br>
+<hr>
+<br>
+
+    <div id="cogiQuan1">
+        <h2>Functions</h2>
+        <h3><i>Sacred Rotes of the Machine Spirit</i></h3>
+        <p>In the JavaScript cogitator language, a <i>Function</i> is a programmable procedure
+        which you can utilize to perform various tasks or calculate various values. By setting
+        variables (using variable declarations such as "let" or "var"), you can program your Function
+        to investigate these variables or utilize them in calculations. It can be thought of as a sort of
+        "sub-program" which runs inside of your code. Values (such as variables) can be defined outside 
+        of a function and then passed into it, but you must be careful to place the function itself
+        within the scope in which you wish to use it.</p>
+        <br>
+        <p>Below, you will find an example of this type of cogitation-sorcery:</p>
+        <pre><code>
+        function withTaxPrice(x){
+            let productCost= x;
+            let salesTax = x*0.07;
+            let total= productCost + salesTax;
+                console.log(total, "Throne Gelt");
+        return total;
+            }
+            
+        withTaxPrice(10);</code></pre>
+    </div>
+<br>
+<hr>
+<br>
+    <div id="cogiQuan2">
+        <h2>Conditionals</h2>
+        <h3><i>Mysterious Logics of the Machine Spirit</i></h3>
+        <p>Conditionals allow a tech priest to control the behavior of their programs, functions,
+        and so forth by evaluating if certain conditions have been met and then running processes
+        if they have. They also allow you to create chains and loops of multiple logic gates to check
+        for several different conditions and have prepared contingencies. "If" is the most common
+        Conditional statement. It allows you to both check if something is "truthy", and propose a
+        consequence in the case that it is. A truthy statement is one which evaluates to "true".
+        Other Conditional statements (for example "Else If") can be chained onto an initial "If" to present alternative outcomes
+        in the case that other statements turn out to be truthy, or even in the case that none of
+        the prepared arguments are truthy (an ending "Else" statement).
+        </p>
+        <p>Below, you will find an example of this type of cogitation-sorcery:</p>
+        <pre><code>
+        var temperature= 75;
+            if (temperature > 70){
+                console.log("Better wear shorts! It's gonna be a hot one today!")
+            } else if (temperature <= 70 && temperature > 60){
+                console.log("It's gonna be pretty nice out today.")
+            } else { console.log("Better dress warm!")</code></pre>
+    </div>
+<br>
+<hr>
+<br>
+    <div id="cogiQuan3">
+        <h2>Arrays</h2>
+        <h3><i>Holy Data-Armory of the Machine Spirit</i></h3>
+        <p>
+        Arrays are powerful code-vaults which behave in a way not unlike a large container into
+        which can be placed all manner of values. They are themselves a sort of value, and can
+        be used to contain a long list of values, even those of different datatypes. Arrays can
+        even contain other arrays. The contents of an array (the array's "elements") are counted
+        starting from 0; this is an important thing to remember when attempting to access the 
+        data stored within an array. In order to make use of these powerful aspects of a
+        Machine Spirit, you must know that arrays have "methods" and "properties". These are commands
+        such as ".length" (which allows you to evaluate the number of elements in an array), ".concat"
+        (which allows you to fuse two extant arrays), or ".reverse" (which returns a copy of the array
+        in opposite order). These built-in methods for manipulating arrays makes them very versatile
+        containers, indeed.</p>
+        <p>Below, you will find an example of this type of cogitation-sorcery:</p>
+        <pre><code>
+        let charStats = ["Str", "Dex", "Con", "Int", "Wis", "Cha"];
+            charStats[1]; //output-> "Dex"
+
+        //or if you have a long and unwieldy array and want to return only the last 
+        //element in an array, you could do something like this:
+        
+        let magicSchools = ["Enchantment", "Necromancy", "Transmutation", "Conjuration", "Divination",
+        "Evocation", "Illusion", "Abjuration"];
+            magicSchools[magicSchools.length - 1]; //output-> "Abjuration"
+        
+        //this works because arrays start numbering their elements at 0.
+        </code></pre>
+    </div>
+</div>
+    <footer>
+        <p>||| Copyright © M42.002 AdMech |||</p>
+        <p><a href="01-tutorialWebpage.html">Anti-Privacy Policy</a> - 
+        <a href="01-tutorialWebpage.html">Report Suspected Tech-Heresy</a> - 
+        <a href="01-tutorialWebpage.html">Volunteer for Experimentation</a></p>
+        <p><b>Thought for the Day: </b><i>A moment of laxity begets a lifetime of heresy.</i></p>
+    </footer>
+</body>
+</html>
