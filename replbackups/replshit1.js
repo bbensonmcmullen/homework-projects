@@ -32,9 +32,10 @@ let button = document.getElementById('Button');
 let inputs = document.getElementsByClassName('input');
 
 function passwordCheck(){
-  if (passw1.value != passw2.value){
+  if (passw1.value == passw2.value && passw1.value !== "" && passw2.value !== ""){
+    button.disabled = true;
+  } else {
     alert('Your passwords MUST match!')
-  } else { button.disabled = true;
 }}
 
 function fillCheck(){
